@@ -461,10 +461,4 @@ ahoy.start = function () {
   ahoy.start = function () {};
 };
 
-documentReady(function() {
-  if (config.startOnReady) {
-    ahoy.start();
-  }
-});
-
 export default ahoy;
